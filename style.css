@@ -14,7 +14,7 @@ h1 {
     color: orange;
 }
 
-section {
+.flexable-container {
     display: flex;
     margin-bottom: 150px;
 }
@@ -46,4 +46,26 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-area {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+#first {
+    border-left: 7px solid tomato;
+}
+
+#second {
+    border-left: 7px solid rgb(49, 12, 255);
+
+}
+
+.fot {
+    text-align: center;
 }
